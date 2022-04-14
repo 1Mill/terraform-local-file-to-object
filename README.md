@@ -16,7 +16,7 @@ MY_API_KEY=123456
 SOME_KEY=SOME_VALUE
 ```
 
-```hlc
+```hcl
 module "file_to_object" {
   source  = "1Mill/file-to-object/local"
   version = "0.0.1"
