@@ -19,7 +19,6 @@ SOME_KEY=SOME_VALUE
 ```hcl
 module "file_to_object" {
   source  = "1Mill/file-to-object/local"
-  version = "0.0.1"
 
   filename = "${path.module}/my-bash-file.bash"
 }
